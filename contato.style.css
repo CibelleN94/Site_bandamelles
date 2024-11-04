@@ -74,13 +74,10 @@ h1 {
     font-family: "Lexend Mega";
     border: solid 2px #e1d9c2;
     padding: 10px;
-    transition: transform 0.5s;
 }
 p#telefone {
     color: #e1d9c2;
-    font-size: 1.6em;
-    font-family: "Legend Mega";
-    font-style: italic;
+    font-family: "Lexend Mega";
 }
 
 .links {
