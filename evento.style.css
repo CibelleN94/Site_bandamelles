@@ -68,8 +68,12 @@ p {
     color: #e1d9c2;
     position: relative;
 }
+nav > a.active {
+    color: #e1d9c2;
+ }
 .eventodescricao {
        position: relative;
+       top: 50px;
         height: 50vh;
         width: 100%; 
       padding: 10px;      
@@ -81,6 +85,15 @@ div.fotoseventos {
     display: flex;
     justify-content: space-around;
     
+
+}
+#fotoseventos {
+    border: solid 2px #e1d9c2;
+    transition: transform 0.5s;
+    padding:10px;
+}
+#fotoseventos:hover {
+    transform: scale(1.1,1.1);
 
 }
 div.legends {
